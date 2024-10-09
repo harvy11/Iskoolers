@@ -1,0 +1,137 @@
+.logo{
+    margin: auto;
+    width: 250px;
+    height: 130px;
+}
+
+.iskoolers-logo{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 300px;
+
+    
+}
+
+.nav-bar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 220px;
+   
+    
+}
+
+.details{
+    padding: 20px;
+    width: 520px;
+    display: flex;
+    gap: 25px;
+    margin: auto;
+}
+
+
+.buttons{
+
+    display: flex;
+    width: 220px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    color: rgb(12, 158, 255);
+    background-color: white;
+    border: 2pt solid rgb(12, 158, 255);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.signup{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 158, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login:hover{
+    background-color: rgb(12, 158, 255);
+    color: white;
+    
+}
+
+.signup:hover{
+    background-color: white;
+    color:  rgb(12, 158, 255);
+    border: 2pt solid  rgb(12, 158, 255);
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #efeeee;
+}
+
+.Tagline {
+    margin: 150px 20px 150px 50px;
+    line-height: 110%;
+}
+
+#H1 {
+    font-weight: 350;
+}
+#H2 {
+    font-size: 40px;
+}
+
+.get-started {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    color: rgb(12, 158, 255);
+    background-color: white;
+    border: 2pt solid rgb(12, 158, 255);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.signup-with-google{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 158, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.get-started:hover{
+    background-color: rgb(12, 158, 255);
+    color: white;
+    
+}
+
+.signup-with-google:hover{
+    background-color: white;
+    color:  rgb(12, 158, 255);
+    border: 2pt solid  rgb(12, 158, 255);
+}
+body{
+    font-family: lato;
+}
+
